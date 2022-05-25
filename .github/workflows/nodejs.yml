@@ -3,7 +3,7 @@ name: Jest Tests
 on: [push]
 jobs:
   build:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     container: node:latest
     steps:
       - uses: actions/checkout@v2
