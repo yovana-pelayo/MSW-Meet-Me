@@ -12,7 +12,7 @@ const Home = ({ user }) => {
     }
   }, [user])
 
-  if (loading) return <h1>Loading...</h1>
+  if (loading) return <h1>Loading....</h1>
   return <Profile user={user} />
 }
 
